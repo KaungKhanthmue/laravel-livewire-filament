@@ -40,10 +40,10 @@ class ComposerStaticInit7e8c3c14ff33b199b4a0838993eb8423
         '9720327d09ed9a4ba00c9b5071b71c7d' => __DIR__ . '/..' . '/danharrin/date-format-converter/src/standards.php',
         '2ad94ea6f6f6013119e9abcf4e302a08' => __DIR__ . '/..' . '/filament/forms/src/helpers.php',
         'b69d5f1f95cd1ed438c038b6cbcc45b5' => __DIR__ . '/..' . '/filament/notifications/src/Testing/Autoload.php',
-        '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
-        '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         '89e9938b64b06cc502d7ceca69a380fe' => __DIR__ . '/..' . '/filament/filament/src/global_helpers.php',
         'ebb446bb6d02e998480945fbbb73dc64' => __DIR__ . '/..' . '/filament/filament/src/helpers.php',
+        '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+        '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         'c72349b1fe8d0deeedd3a52e8aa814d8' => __DIR__ . '/..' . '/mockery/mockery/library/helpers.php',
         'ce9671a430e4846b44e1c68c7611f9f5' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery.php',
         'a1cfe24d14977df6878b9bf804af2d1c' => __DIR__ . '/..' . '/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php',
@@ -160,6 +160,10 @@ class ComposerStaticInit7e8c3c14ff33b199b4a0838993eb8423
         array (
             'Illuminate\\Support\\' => 19,
             'Illuminate\\' => 11,
+        ),
+        'H' => 
+        array (
+            'Hasnayeen\\Themes\\' => 17,
         ),
         'G' => 
         array (
@@ -522,6 +526,10 @@ class ComposerStaticInit7e8c3c14ff33b199b4a0838993eb8423
         array (
             0 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate',
         ),
+        'Hasnayeen\\Themes\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hasnayeen/themes/src',
+        ),
         'GuzzleHttp\\UriTemplate\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/uri-template/src',
@@ -682,6 +690,10 @@ class ComposerStaticInit7e8c3c14ff33b199b4a0838993eb8423
         'AnourValar\\EloquentSerialize\\Grammars\\QueryBuilderGrammar' => __DIR__ . '/..' . '/anourvalar/eloquent-serialize/src/Grammars/QueryBuilderGrammar.php',
         'AnourValar\\EloquentSerialize\\Package' => __DIR__ . '/..' . '/anourvalar/eloquent-serialize/src/Package.php',
         'AnourValar\\EloquentSerialize\\Service' => __DIR__ . '/..' . '/anourvalar/eloquent-serialize/src/Service.php',
+        'App\\Filament\\Pages\\Category' => __DIR__ . '/../..' . '/app/Filament/Pages/Category.php',
+        'App\\Filament\\Pages\\ProductPage' => __DIR__ . '/../..' . '/app/Filament/Pages/ProductPage.php',
+        'App\\Filament\\Pages\\UserLee' => __DIR__ . '/../..' . '/app/Filament/Pages/UserLee.php',
+        'App\\Filament\\Pages\\UserPage' => __DIR__ . '/../..' . '/app/Filament/Pages/UserPage.php',
         'App\\Filament\\Resources\\BrandResource' => __DIR__ . '/../..' . '/app/Filament/Resources/BrandResource.php',
         'App\\Filament\\Resources\\BrandResource\\Pages\\CreateBrand' => __DIR__ . '/../..' . '/app/Filament/Resources/BrandResource/Pages/CreateBrand.php',
         'App\\Filament\\Resources\\BrandResource\\Pages\\EditBrand' => __DIR__ . '/../..' . '/app/Filament/Resources/BrandResource/Pages/EditBrand.php',
@@ -702,6 +714,10 @@ class ComposerStaticInit7e8c3c14ff33b199b4a0838993eb8423
         'App\\Filament\\Resources\\ProductResource\\Pages\\CreateProduct' => __DIR__ . '/../..' . '/app/Filament/Resources/ProductResource/Pages/CreateProduct.php',
         'App\\Filament\\Resources\\ProductResource\\Pages\\EditProduct' => __DIR__ . '/../..' . '/app/Filament/Resources/ProductResource/Pages/EditProduct.php',
         'App\\Filament\\Resources\\ProductResource\\Pages\\ListProducts' => __DIR__ . '/../..' . '/app/Filament/Resources/ProductResource/Pages/ListProducts.php',
+        'App\\Filament\\Resources\\UserResource' => __DIR__ . '/../..' . '/app/Filament/Resources/UserResource.php',
+        'App\\Filament\\Resources\\UserResource\\Pages\\CreateUser' => __DIR__ . '/../..' . '/app/Filament/Resources/UserResource/Pages/CreateUser.php',
+        'App\\Filament\\Resources\\UserResource\\Pages\\EditUser' => __DIR__ . '/../..' . '/app/Filament/Resources/UserResource/Pages/EditUser.php',
+        'App\\Filament\\Resources\\UserResource\\Pages\\ListUsers' => __DIR__ . '/../..' . '/app/Filament/Resources/UserResource/Pages/ListUsers.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Livewire\\Auth\\ForgotPasswordPage' => __DIR__ . '/../..' . '/app/Livewire/Auth/ForgotPasswordPage.php',
         'App\\Livewire\\Auth\\LoginPage' => __DIR__ . '/../..' . '/app/Livewire/Auth/LoginPage.php',
@@ -709,6 +725,7 @@ class ComposerStaticInit7e8c3c14ff33b199b4a0838993eb8423
         'App\\Livewire\\Auth\\ResetPasswordPage' => __DIR__ . '/../..' . '/app/Livewire/Auth/ResetPasswordPage.php',
         'App\\Livewire\\CancelPage' => __DIR__ . '/../..' . '/app/Livewire/CancelPage.php',
         'App\\Livewire\\CartPage' => __DIR__ . '/../..' . '/app/Livewire/CartPage.php',
+        'App\\Livewire\\Category' => __DIR__ . '/../..' . '/app/Livewire/Category.php',
         'App\\Livewire\\CategoryPage' => __DIR__ . '/../..' . '/app/Livewire/CategoryPage.php',
         'App\\Livewire\\CheckoutPage' => __DIR__ . '/../..' . '/app/Livewire/CheckoutPage.php',
         'App\\Livewire\\HomePage' => __DIR__ . '/../..' . '/app/Livewire/HomePage.php',
@@ -2978,6 +2995,22 @@ class ComposerStaticInit7e8c3c14ff33b199b4a0838993eb8423
         'Hamcrest\\Type\\IsString' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsString.php',
         'Hamcrest\\Util' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Util.php',
         'Hamcrest\\Xml\\HasXPath' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php',
+        'Hasnayeen\\Themes\\Commands\\ThemesMakeCommand' => __DIR__ . '/..' . '/hasnayeen/themes/src/Commands/ThemesMakeCommand.php',
+        'Hasnayeen\\Themes\\Commands\\UpgradeCommand' => __DIR__ . '/..' . '/hasnayeen/themes/src/Commands/UpgradeCommand.php',
+        'Hasnayeen\\Themes\\Contracts\\CanModifyPanelConfig' => __DIR__ . '/..' . '/hasnayeen/themes/src/Contracts/CanModifyPanelConfig.php',
+        'Hasnayeen\\Themes\\Contracts\\HasChangeableColor' => __DIR__ . '/..' . '/hasnayeen/themes/src/Contracts/HasChangeableColor.php',
+        'Hasnayeen\\Themes\\Contracts\\HasOnlyDarkMode' => __DIR__ . '/..' . '/hasnayeen/themes/src/Contracts/HasOnlyDarkMode.php',
+        'Hasnayeen\\Themes\\Contracts\\HasOnlyLightMode' => __DIR__ . '/..' . '/hasnayeen/themes/src/Contracts/HasOnlyLightMode.php',
+        'Hasnayeen\\Themes\\Contracts\\Theme' => __DIR__ . '/..' . '/hasnayeen/themes/src/Contracts/Theme.php',
+        'Hasnayeen\\Themes\\Filament\\Pages\\Themes' => __DIR__ . '/..' . '/hasnayeen/themes/src/Filament/Pages/Themes.php',
+        'Hasnayeen\\Themes\\Http\\Middleware\\SetTheme' => __DIR__ . '/..' . '/hasnayeen/themes/src/Http/Middleware/SetTheme.php',
+        'Hasnayeen\\Themes\\Themes' => __DIR__ . '/..' . '/hasnayeen/themes/src/Themes.php',
+        'Hasnayeen\\Themes\\ThemesPlugin' => __DIR__ . '/..' . '/hasnayeen/themes/src/ThemesPlugin.php',
+        'Hasnayeen\\Themes\\ThemesServiceProvider' => __DIR__ . '/..' . '/hasnayeen/themes/src/ThemesServiceProvider.php',
+        'Hasnayeen\\Themes\\Themes\\DefaultTheme' => __DIR__ . '/..' . '/hasnayeen/themes/src/Themes/DefaultTheme.php',
+        'Hasnayeen\\Themes\\Themes\\Dracula' => __DIR__ . '/..' . '/hasnayeen/themes/src/Themes/Dracula.php',
+        'Hasnayeen\\Themes\\Themes\\Nord' => __DIR__ . '/..' . '/hasnayeen/themes/src/Themes/Nord.php',
+        'Hasnayeen\\Themes\\Themes\\Sunset' => __DIR__ . '/..' . '/hasnayeen/themes/src/Themes/Sunset.php',
         'Illuminate\\Auth\\Access\\AuthorizationException' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Auth/Access/AuthorizationException.php',
         'Illuminate\\Auth\\Access\\Events\\GateEvaluated' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Auth/Access/Events/GateEvaluated.php',
         'Illuminate\\Auth\\Access\\Gate' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Auth/Access/Gate.php',
